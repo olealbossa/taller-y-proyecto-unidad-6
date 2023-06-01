@@ -1,0 +1,120 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 400px;
+}
+.header-contain{
+    width: 80%;
+    height: 500px;
+    margin: 0px 10% 0px 10%;
+    display: flex;
+}
+.header-contain .title{
+   width: 40%;
+   height: 100%;
+}
+.header-contain .illustration{
+    width: 60%;
+    height: 100%;
+}
+.header-contain .illustration img{
+    width: 100%;
+}
+ h2{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: rgba(7, 105, 7, 0.836);
+ }
+.header-contain .title h1{
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    color: rgba(0, 24, 0, 0.836);
+ }
+.header-contain .title p{
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 35px;
+ }
+.header-contain .title a{
+    padding: 6px;
+    background-color: rgba(7, 105, 7, 0.774);
+    border-radius: 4px;
+    color: white;
+    box-shadow: 0px -1px 56px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 35px;
+    text-decoration: none;
+    transition: all 1s;    
+ }
+ .header-contain .title a:hover{
+    background-color: rgba(0, 24, 0, 0.836);
+    transition: all 1s;
+ }
+
+ #section-description{
+    width: 89%;
+    height: 500px;
+    margin: 18px 15%;
+    display: flex;
+ }
+ #section-respuestas{
+    width: 80%;
+    height: 450px;
+    margin: 250px 15%;
+    display: flex;
+ }
+ #section-description p{
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 35px;
+ }
+ #section-description .illustrationes, #section-description .descript, .respuestas{
+   width: 50%;
+   height: 100%;
+}
+#section-description .illustrationes img{
+   width: 50%;
+}
+.illusespu{
+   width: 100%;
+}
+#section-description .descript{
+   padding-top: 200px;
+}
+#section-respuestas .respuestas .ind{
+   width: 100%;
+   margin: 55px 0px;
+   height: 60px;
+   background-color: rgb(231, 231, 231);
+   border-radius: 50px;
+   transition: all 1s;
+}
+#section-respuestas .respuestas .ind a{
+   font-family: 'Raleway', sans-serif;
+   font-size: 15px;
+   line-height: 60px;
+   font-weight: 400;
+   text-decoration: none;
+   color: rgb(49, 70, 133);
+   padding-left: 25px;
+}
+#section-respuestas .respuestas .ind:hover{
+   box-shadow: 0px 0px 10px rgba(9, 90, 26, 0.97);
+   transition: all 1s;
+}
+
+#section-respuestas h2{
+   padding-bottom: 30px;
+}
